@@ -30,7 +30,7 @@ The first time you launch a newly installed Linux distribution, a console window
 
     * Each Linux distribution running on WSL has its own Linux user accounts and passwords. You will have to configure a Linux user account every time you add a distribution, reinstall, or reset. 
 
-7. Finally, go to Powershell and run the following commands:
+7. Finally, go to Powershell, open as administrator and run the following commands:
 
 ```PowerShell
 wsl --update
