@@ -1,6 +1,5 @@
 # WSL-Installation
-
-
+**Requirements: Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11(type and click on winver at the search bar to find your windows version)**
 1. You must first enable the "Windows Subsystem for Linux" optional feature before installing any Linux distributions on Windows.
 
 2. Open PowerShell as Administrator (Start menu > PowerShell > right-click > Run as Administrator) and enter this command:
@@ -8,6 +7,12 @@
 ```PowerShell
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```  
+and:
+
+```PowerShell
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
 3. After running this command restart your machine
 
 4. Install ubuntu from the following [link](https://apps.microsoft.com/detail/9NZ3KLHXDJP5?hl=en-us&gl=GR&ocid=pdpshare)
